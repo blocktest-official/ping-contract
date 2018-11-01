@@ -14,11 +14,11 @@ contract PingContract {
         emit ContractPinged(_pingData, _pingUsername);
     }
     
-    function getData() public pure returns (string) {
+    function getData() public view returns (string) {
         return pingData;
     }
     
-    function getUsername() public pure returns (string) {
+    function getUsername() public view returns (string) {
         return pingUsername;
     }
 }
