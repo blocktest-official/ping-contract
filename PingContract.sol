@@ -1,4 +1,4 @@
-pragma solidity 0.5.0;
+pragma solidity 0.4.25;
 
 // deployed on 0x5fC8ffDeB3b0E2D20706D2c6989833FEeaAA7cb3 in Ropsten network
 contract PingContract {
